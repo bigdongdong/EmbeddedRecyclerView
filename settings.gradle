@@ -1,1 +1,1 @@
-include ':app', ':embeddedrecyclerview'
+include ':app', ':moudle'

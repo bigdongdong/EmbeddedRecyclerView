@@ -1,4 +1,4 @@
-package com.cxd.embeddedrecyclerview.embeddedrecyclerview;
+package com.cxd.views.moudle;
 
 import android.content.Context;
 import android.support.v7.widget.LinearLayoutManager;
