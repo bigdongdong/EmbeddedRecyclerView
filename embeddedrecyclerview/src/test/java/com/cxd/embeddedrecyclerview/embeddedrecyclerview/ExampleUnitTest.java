@@ -1,4 +1,4 @@
-package com.cxd.embeddedrecyclerview;
+package com.cxd.embeddedrecyclerview.embeddedrecyclerview;
 
 import org.junit.Test;
 
