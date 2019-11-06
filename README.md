@@ -12,7 +12,7 @@
   }
   
   dependencies {
-	  implementation 'com.github.bigdongdong:EmbeddedRecyclerView:v1.1' //添加依赖
+	  implementation 'com.github.bigdongdong:EmbeddedRecyclerView:v1.2' //添加依赖
   }
 ```
 
@@ -38,7 +38,10 @@
 ```
 java代码（不用setLayoutManager）：
 ```java
-EmbeddedRecyclerView recyclerView = findViewbyId(R.id.recyclerView);
+EmbeddedRecyclerView embeddedRecyclerView = findViewbyId(R.id.embeddedRecyclerView);
+//通过get()拿到内部的recyclerView
+RecyclerView recyclerView = embeddedRecyclerView.get(); 
+//操作recyclerView来展示列表
 recyclerView.setAdapter(...);
 
 

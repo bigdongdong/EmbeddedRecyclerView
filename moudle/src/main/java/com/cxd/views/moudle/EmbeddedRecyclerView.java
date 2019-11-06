@@ -9,8 +9,7 @@ import android.view.View;
 import android.widget.RelativeLayout;
 
 /**
- * @author CXD
- * @project baseDemo2
+ * @author chenxiaodong
  * @date :2019/5/23 0023 13:41
  * @description:
  *
@@ -19,7 +18,7 @@ import android.widget.RelativeLayout;
  */
 public class EmbeddedRecyclerView extends RelativeLayout {
     private View view ;
-    public RecyclerView recyclerView;
+    private RecyclerView recyclerView;
 
     public EmbeddedRecyclerView(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -51,5 +50,14 @@ public class EmbeddedRecyclerView extends RelativeLayout {
      */
     public void addItemDecoration(RecyclerView.ItemDecoration decor){
         recyclerView.addItemDecoration(decor);
+    }
+
+    /**
+     * 返回RecyclerView对象
+     * @return
+     * @throws Exception
+     */
+    public RecyclerView get(){
+        return recyclerView ;
     }
 }
