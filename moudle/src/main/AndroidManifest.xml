@@ -1,2 +1,2 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cxd.views.moudle" />
+    package="com.cxd.views.embedded_recycler" />
