@@ -12,7 +12,7 @@
   }
   
   dependencies {
-	  implementation 'com.github.bigdongdong:EmbeddedRecyclerView:v1.2' //添加依赖
+	  implementation 'com.github.bigdongdong:EmbeddedRecyclerView:1.5' //添加依赖
   }
 ```
 
